@@ -64,15 +64,11 @@ Each table consists of:
 
 Example:
 
-```
-+------------+--------------+--------+
-| StudentID  | Name         | Age    |
-+------------+--------------+--------+
-| 101        | Alice        | 20     |
-| 102        | Bob          | 21     |
-| 103        | Charlie      | 22     |
-+------------+--------------+--------+
-```
+| StudentID | Name    | Age |
+| --------- | ------- | --- |
+| 101       | Alice   | 20  |
+| 102       | Bob     | 21  |
+| 103       | Charlie | 22  |
 
 ---
 
@@ -154,14 +150,10 @@ All information in a database must be represented only as values stored in table
 
 Employee
 
-```
-+--------+---------+
-| ID     | Name    |
-+--------+---------+
-| 101    | Alice   |
-| 102    | Bob     |
-+--------+---------+
-```
+| ID  | Name  |
+| --- | ----- |
+| 101 | Alice |
+| 102 | Bob   |
 
 Everything is stored as table values.
 
@@ -195,13 +187,9 @@ NULL should represent missing, unknown, or inapplicable information.
 
 Example
 
-```
-+-----+---------+------------+
-| ID  | Name    | Phone      |
-+-----+---------+------------+
-|101  | Alice   | NULL       |
-+-----+---------+------------+
-```
+| ID  | Name  | Phone |
+| --- | ----- | ----- |
+| 101 | Alice | NULL  |
 
 NULL is different from:
 
